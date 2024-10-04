@@ -6,13 +6,13 @@ title                    : "Liron's Portfolio"
 title_separator          : "-"
 name                     : &name "Liron"
 description              : &description "Portfolio of Liron, an Electrical and Computer Engineering student specializing in VLSI and Computers."
-url                      : https://your-portfolio-url.github.io # Update with your actual URL
+url                      : https://lironl99.github.io/ # Update with your actual URL
 baseurl                  : "" # The subpath of your site, e.g. "/portfolio"
-repository               : "LironL99/portfolio" # Update with your GitHub repository name
+repository               : "LironL99.github.io" # Update with your GitHub repository name
 
 # Site Author
 author:
-  avatar           : "/assets/img/rsz_2profile_pic_rnd.png" # Path to your logo
+  avatar           : "assets/img/rsz_2profile_pic_rnd.png" # Path to your logo
   name             : "Liron"
   bio              : "Electrical and Computer Engineering student specializing in VLSI and Computers."
   location         : "Earth"
