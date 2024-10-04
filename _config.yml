@@ -1,66 +1,50 @@
-# Welcome to Liron's Portfolio!
+# Minimal Jekyll Portfolio Configuration
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "Liron's Portfolio"
-title_separator          : "-"
-name                     : &name "Liron"
-description              : &description "Portfolio of Liron, an Electrical and Computer Engineering student specializing in VLSI and Computers."
-url                      : https://lironl99.github.io/ # Update with your actual URL
-baseurl                  : "" # The subpath of your site, e.g. "/portfolio"
-repository               : "LironL99.github.io" # Update with your GitHub repository name
+locale: "en-US"
+title: "Liron's Portfolio"
+description: "Showcasing projects in Electrical and Computer Engineering"
+url: "https://your-portfolio-url.com" # Update with your live site URL
+baseurl: "" # No subpath for portfolio site
+repository: "LironL99/portfolio"
 
-# Site Author
+# Logo
+logo: "assets/img/rsz_2profile_pic_rnd.png"
+
+# Author Information
 author:
-  avatar           : "assets/img/rsz_2profile_pic_rnd.png" # Path to your logo
-  name             : "Liron"
-  bio              : "Electrical and Computer Engineering student specializing in VLSI and Computers."
-  location         : "Earth"
-  email            : "your_email@example.com" # Update with your email
-
-# Publication Category
-publication_category:
-  projects:
-    title: 'Featured Projects'
+  name: "Liron"
+  bio: "Student of Electrical and Computer Engineering specializing in VLSI and Computers tracks"
+  email: "liron@example.com" # Update with your email
+  github: "LironL99"
 
 # Site Settings
-teaser                   : "default-teaser.png" # Replace with your teaser image filename
-comments:
-  provider               : false # Disable comments for portfolio
-read_more                : "disabled" # Disable "Read more" links
+teaser: "default-image.png" # Fallback image for teasers
+future: true
+comments: 
+  provider: false # Disable comments for a portfolio site
 
 # SEO Related
-google_site_verification : # Insert your Google verification code if needed
-bing_site_verification   : 
-alexa_site_verification  : 
-yandex_site_verification : 
+google_site_verification: "" 
+bing_site_verification: ""
+alexa_site_verification: ""
+yandex_site_verification: ""
 
 # Analytics
 analytics:
-  provider               : "false" # Disable analytics for the portfolio
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .git
-  - README.md
-  - LICENSE
+  provider: "false" # No analytics for a personal portfolio
 
 # Markdown Processing
 markdown: kramdown
 
-# Plugins
+# Outputting
+permalink: /:title/
+timezone: Etc/UTC
+
+# Plugins (keep minimal)
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-
-# Outputting
-permalink: /:categories/:title/
-timezone: Etc/UTC
 
 # Collections
 collections:
@@ -68,20 +52,17 @@ collections:
     output: true
     permalink: /projects/:path/
 
-# Defaults
+# Defaults for Pages and Projects
 defaults:
   - scope:
       path: ""
       type: pages
     values:
       layout: single
-      author_profile: true
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# HTML Compression
-compress_html:
-  clippings: all
+      author_profile: false
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+      author_profile: false
