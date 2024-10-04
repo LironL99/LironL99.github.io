@@ -1,0 +1,11 @@
+.site-logo {
+    width: 100px;  /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    border-radius: 50%; /* Makes the logo rounded */
+    overflow: hidden; /* Ensures no overflow from the rounded corners */
+}
+
+.site-logo img {
+    width: 100%;  /* Makes the image fill the container */
+    height: auto; /* Keeps the aspect ratio */
+}
