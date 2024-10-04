@@ -1,7 +1,7 @@
 title: Liron's Portfolio
-logo: /assets/img/profile_pic_rnd.png
+logo: /assets/img/rsz_2profile_pic_rnd.png
 #description: A showcase of my projects in Electrical and Computer Engineering, focusing on VLSI and Computers.
 #show_downloads: true
 theme: jekyll-theme-minimal
-sass:
-  style: compressed
+##sass:
+ ## style: compressed
