@@ -5,17 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
 
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6924S3V27R"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-6924S3V27R');
-  </script>
-  <!-- End Google Analytics -->
-
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head.html %}  <!-- Include the head.html file here -->
 </head>
 <body>
   <header>
@@ -27,8 +17,7 @@
   </nav>
 
   <main>
-    <!-- Page content goes here -->
-    {{ content }}
+    {{ content }}  <!-- Page content goes here -->
   </main>
 
   <footer>
