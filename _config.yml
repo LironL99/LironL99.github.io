@@ -1,9 +1,9 @@
 title: Liron Leibovich
 logo: /assets/img/rsz_rsz_2profile_pic_rnd.png
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+remote_theme: jekyll/minima
 google_analytics: "G-6924S3V27R"  # Your tracking ID
 sass:
   style: compressed
 plugins:
-  - jekyll-google-analytics  # Ensure this plugin is supported
-  - jekyll-seo-tag
+  - jekyll-remote-theme
