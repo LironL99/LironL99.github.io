@@ -12,7 +12,7 @@ repository               : "LironL99/portfolio" # Update with your GitHub reposi
 
 # Site Author
 author:
-  avatar           : "assets/img/rsz_2profile_pic_rnd.png" # Path to your logo
+  avatar           : "/assets/img/rsz_2profile_pic_rnd.png" # Path to your logo
   name             : "Liron"
   bio              : "Electrical and Computer Engineering student specializing in VLSI and Computers."
   location         : "Earth"
