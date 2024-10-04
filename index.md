@@ -42,3 +42,5 @@ I’m an Electrical and Computer Engineering student at Ben-Gurion University (B
 
 - **LinkedIn**: [Liron Leibovich](https://www.linkedin.com/in/liron-leibovich1)
 - **GitHub**: [LironL99](https://github.com/LironL99)
+
+&copy; {{ site.time | date: '%Y' }} {{ site.title }}
