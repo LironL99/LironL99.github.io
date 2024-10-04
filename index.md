@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Liron's Portfolio
 
 Welcome to my portfolio website! I'm a student of Electrical and Computer Engineering, specializing in VLSI and Computers tracks. This website showcases a variety of projects that highlight my skills in digital design, systems programming, machine learning, and computer architecture.
