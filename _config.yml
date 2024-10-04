@@ -6,3 +6,4 @@ sass:
   style: compressed
 plugins:
   - jekyll-google-analytics  # Ensure this plugin is supported
+  - jekyll-seo-tag
