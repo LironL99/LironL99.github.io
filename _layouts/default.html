@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--<title>{{ page.title }} | {{ site.title }}</title>-->
-
   {% include head.html %}  <!-- Include the head.html file here -->
 </head>
 <body>
-  <header>
-     <!--<h1>{{ site.title }}</h1>-->
+  <header style="display: flex; align-items: center; padding: 10px;">
+    <div style="flex: 0 0 50px;"> <!-- Adjust width as needed -->
+      <img src="{{ site.logo }}" alt="{{ site.title }}" style="width: 50px; height: 50px; border-radius: 50%;">
+    </div>
+    <div style="flex: 1; margin-left: 10px;">
+      <h1 style="margin: 0;">{{ site.title }}</h1>
+    </div>
   </header>
 
   <nav>
@@ -22,7 +25,7 @@
   </main>
 
   <footer>
-    
+    <!-- Footer content if any -->
   </footer>
 </body>
 </html>
