@@ -12,8 +12,8 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using **Verilog**. T
 
 ### 2. Integrated Circuits and Introduction to VLSI Tasks
 This repository includes two significant tasks focusing on VLSI design and verification using **Cadence Virtuoso**. These projects involve:
-- **MOSFET, Inverter & Buffer Design** – Optimizing and designing fundamental digital components.
-- **Digital Logic Blocks** – Designing and testing adders, multiplexer and barrel shifter.
+- MOSFET, Inverter & Buffer Design – Optimizing and designing fundamental digital components.
+- Digital Logic Blocks – Designing and testing adders, multiplexer and barrel shifter.
 
 The tasks emphasize low-power design, timing optimization, and parasitic extraction, utilizing Cadence Virtuoso for simulation and verification.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/Integrated-Circuits-and-Introduction-to-VLSI-Tasks)
