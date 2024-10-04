@@ -6,5 +6,3 @@ sass:
   style: compressed
 plugins:
   - jekyll-google-analytics
-
-
