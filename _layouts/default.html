@@ -18,10 +18,11 @@
 
   <main>
     {{ content }}  <!-- Page content goes here -->
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
   </main>
 
   <footer>
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    
   </footer>
 </body>
 </html>
