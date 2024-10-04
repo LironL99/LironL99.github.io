@@ -5,4 +5,4 @@ google_analytics: "G-6924S3V27R"
 sass:
   style: compressed
 plugins:
-  - jekyll-google-analytics
+  - jekyll-seo-tag
