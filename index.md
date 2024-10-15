@@ -10,11 +10,15 @@ Welcome to my portfolio website! I'm a student of Electrical and Computer Engine
 
 ## Featured Projects
 
-### 1. 4-bit ALU
+### 1. Ultrasonic Sensor Servo Control Project
+This project creates a distance measurement system using an ultrasonic sensor and a servo motor, providing visual feedback through red LEDs based on the measured distance. The system features a radar-like display using Processing, which visually represents distance readings in real-time and allows users to adjust the scanning speed via a potentiometer. This project enhanced my skills in wiring, integrating components, debugging, and programming within the Arduino IDE environment using C++.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/Ultrasonic-Sensor-Servo-Control-Project)
+
+### 2. 4-bit ALU
 This project implements a 4-bit Arithmetic Logic Unit (ALU) using **Verilog**. The ALU performs essential operations like addition, subtraction, and logical operations, serving as a foundational digital design component.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/4-bit-ALU)
 
-### 2. Integrated Circuits and Introduction to VLSI Tasks
+### 3. Integrated Circuits and Introduction to VLSI Tasks
 This repository includes two significant tasks focusing on VLSI design and verification using **Cadence Virtuoso**. These projects involve:
 - MOSFET, Inverter & Buffer Design – Optimizing and designing fundamental digital components.
 - Digital Logic Blocks – Designing and testing adders, multiplexer, and barrel shifter.
@@ -22,15 +26,15 @@ This repository includes two significant tasks focusing on VLSI design and verif
 The tasks emphasize low-power design, timing optimization, and parasitic extraction, utilizing Cadence Virtuoso for simulation and verification.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/Integrated-Circuits-and-Introduction-to-VLSI-Tasks)
 
-### 3. Systems Programming Tasks in C++
+### 4. Systems Programming Tasks in C++
 A series of assignments that demonstrate my proficiency in **C++ systems programming**.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/Systems-Programming-Tasks-CPP)
 
-### 4. Introduction to Computers Labs
+### 5. Introduction to Computers Labs
 A collection of lab exercises exploring **computer architecture** and **Assembly** programming, laying the groundwork for understanding how computers operate at a low level.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/Introduction-to-Computers-Labs)
 
-### 5. K-Nearest Neighbors and K-Means Clustering (Python)
+### 6. K-Nearest Neighbors and K-Means Clustering (Python)
 A machine learning project showcasing implementations of two essential algorithms—KNN and K-Means—using **Python** and NumPy for data classification and clustering tasks.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/KNN-and-K-Means-Implementation-Python)
 
