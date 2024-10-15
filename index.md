@@ -1,80 +1,54 @@
-# Ultrasonic Sensor Servo Control Project 🚀
+---
+layout: default
+---
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Components Used](#components-used)
-3. [Wiring Diagram](#wiring-diagram)
-4. [Code Explanation](#code-explanation)
-5. [Integration of Components](#integration-of-components)
-6. [Project Functionality](#project-functionality)
-7. [Future Improvements](#future-improvements)
-8. [Conclusion](#conclusion)
+# Liron's Portfolio
 
-## Project Overview
-This project aims to create a distance measurement system using an ultrasonic sensor and a servo motor, providing visual feedback through red LEDs based on the measured distance. Additionally, it features a radar-like display using Processing, which visually represents the distance readings in real time. The system allows users to adjust the scanning speed via a potentiometer. This was my first independent project (besides digital circuits labs), where I enhanced my skills in wiring, using a breadboard, integrating components, debugging, and interfacing with a microcontroller. I also gained experience in programming within the Arduino IDE environment using C++.
+Welcome to my portfolio website! I'm a student of Electrical and Computer Engineering, specializing in VLSI and Computers tracks. This website showcases a variety of projects that highlight my skills in digital design, systems programming, machine learning, and computer architecture.
 
-## Components Used
-- **Arduino UNO R3**: A popular microcontroller board based on the ATmega328P.
-  - **Advantages of Arduino**:
-    - **User-Friendly**: Easy to program using the Arduino IDE.
-    - **Versatile**: Compatible with a wide range of sensors, motors, and other components.
-    - **Large Community**: Extensive community support provides resources and tutorials.
-    - **Affordable**: Cost-effective for hobbyists and students.
+---
 
-- **Ultrasonic Sensor (HC-SR04)**: Used for measuring distance. It sends ultrasonic pulses and calculates the time it takes for them to return.
+## Featured Projects
 
-- **Servo Motor (SG90)**: A small servo motor that rotates between specified angles to scan the environment.
+### 1. Ultrasonic Sensor Servo Control Project 📡
+This project creates a distance measurement system using an ultrasonic sensor and a servo motor, providing visual feedback through red LEDs based on the measured distance. The system features a radar-like display using Processing, which visually represents distance readings in real-time and allows users to adjust the scanning speed via a potentiometer. This project enhanced my skills in wiring, integrating components, debugging, and programming within the Arduino IDE environment using C++.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/Ultrasonic-Sensor-Servo-Control-Project)
 
-- **Potentiometer (B10K)**: A variable resistor allowing users to adjust the scanning speed of the servo motor.
+### 2. 4-bit ALU 🧮
+This project implements a 4-bit Arithmetic Logic Unit (ALU) using **Verilog**. The ALU performs essential operations like addition, subtraction, and logical operations, serving as a foundational digital design component.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/4-bit-ALU)
 
-- **Red LEDs**: Provide visual feedback about the distance to an object.
+### 3. Integrated Circuits and Introduction to VLSI Tasks 🛠️
+This repository includes two significant tasks focusing on VLSI design and verification using **Cadence Virtuoso**. These projects involve:
+- MOSFET, Inverter & Buffer Design – Optimizing and designing fundamental digital components.
+- Digital Logic Blocks – Designing and testing adders, multiplexer, and barrel shifter.
 
-- **Processing Environment**: Used to create a radar-like visual display that represents the measured distance in real time.
+The tasks emphasize low-power design, timing optimization, and parasitic extraction, utilizing Cadence Virtuoso for simulation and verification.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/Integrated-Circuits-and-Introduction-to-VLSI-Tasks)
 
-## Wiring Diagram
-![Wiring Diagram](/Arduino-Projects/Sonar_Servo_Project/Wiring-Diagram.png)
+### 4. Systems Programming Tasks in C++ 💻
+A series of assignments that demonstrate my proficiency in **C++ systems programming**.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/Systems-Programming-Tasks-CPP)
 
-## Code Explanation
-The provided code utilizes various components to create a distance measurement and feedback system using an ultrasonic sensor, servo motor, potentiometer, LEDs, and a Processing display. Below is a breakdown of how these components work together.
+### 5. Introduction to Computers Labs 🖥️
+A collection of lab exercises exploring **computer architecture** and **Assembly** programming, laying the groundwork for understanding how computers operate at a low level.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/Introduction-to-Computers-Labs)
 
-### 1. Component Initialization
-- **Servo Motor (SG90)**: Controlled via a PWM-capable digital pin.
-- **Ultrasonic Sensor (HC-SR04)**: Connected to pins 7 and 8 (trigPin and echoPin) to measure distance.
-- **Potentiometer (B10K)**: Connected to analog pin A0 to control the delay time between servo movements.
-- **Red LEDs**: Connected to pins 10, 11, and 12 to provide visual feedback.
+### 6. K-Nearest Neighbors and K-Means Clustering (Python) 📊
+A machine learning project showcasing implementations of two essential algorithms—KNN and K-Means—using **Python** and NumPy for data classification and clustering tasks.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/KNN-and-K-Means-Implementation-Python)
 
-### 2. Main Functionality
-- The **`setup()`** function initializes the pins for input and output.
-- The **`loop()`** function continuously reads the potentiometer value, maps it to a delay time, and moves the servo motor.
+---
 
-### 3. Moving the Servo
-The **`moveServo()`** function handles the movement of the servo motor.
+## About Me
 
-### 4. Distance Measurement
-The **`calculateDistance()`** function uses the HC-SR04 to measure the distance to an object.
+I’m an Electrical and Computer Engineering student at Ben-Gurion University (BGU), specializing in VLSI design and computer systems. I’m passionate about learning and enjoy exploring new concepts through both coursework and self-study.
 
-### 5. LED Control Logic
-The **`ledControl()`** function controls the state of the red LEDs based on the distance measured.
+---
 
-### 6. Processing Display
-The Processing sketch provides a radar-like visualization of the distance readings.
+## Contact
 
-## Integration of Components
-This project successfully integrates the components to perform the following tasks:
-- Measure distance using the HC-SR04 sensor and adjust the position of the SG90 servo motor.
-- Use a potentiometer to adjust the scanning speed of the servo motor.
-- Provide visual feedback through red LEDs.
+- **LinkedIn**: [Liron Leibovich](https://www.linkedin.com/in/liron-leibovich1) 🌐
+- **GitHub**: [LironL99](https://github.com/LironL99) 🐱
 
-## Project Functionality
-![Project Functionality](/Arduino-Projects/Sonar_Servo_Project/Project_Functionality_GIF.gif)
-- [**Full Demonstration (HQ)**](/Arduino-Projects/Sonar_Servo_Project/Project_Functionality.mp4)
-
-## Future Improvements
-Future iterations could include:
-- Integrating an LCD display.
-- Adding a buzzer for audio feedback.
-- Enhancing the LED control logic.
-- Improving the Processing visualization.
-
-## Conclusion
-This project demonstrates the integration of an ultrasonic sensor, servo motor, potentiometer, LEDs, and a radar-like Processing display. The experience gained from tackling the challenges and implementing the components will serve as a solid foundation for future projects, particularly in the VLSI field.
+&copy; {{ site.time | date: '%Y' }} {{ site.title }}
