@@ -13,7 +13,7 @@ Welcome to my portfolio website! I'm a student of Electrical and Computer Engine
 ### 1. Ultrasonic Sensor Servo Control Project 📡
 Using **Arduino**, this project creates a distance measurement system using an **ultrasonic sensor** and a **servo motor**. It provides visual feedback through red LEDs based on measured distance. A radar-like display in Processing represents distance readings in real-time, allowing users to adjust the scanning speed with a **potentiometer**. This project enhanced my skills in **wiring**, component integration, **debugging**, and programming in the **Arduino IDE**.
 
-- [View Project](https://github.com/LironL99/portfolio/tree/main/Ultrasonic-Sensor-Servo-Control-Project)
+- [View Project](https://github.com/LironL99/portfolio/tree/main/Arduino-Projects/Sonar_Servo_Project)
 
 
 ### 2. 4-bit ALU 🧮
