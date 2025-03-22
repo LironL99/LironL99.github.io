@@ -9,7 +9,7 @@ Developed a **Python-based** tool for **automated log parsing**, **anomaly detec
 - [View Project](https://github.com/LironL99/portfolio/tree/main/Automated_Log_Analysis)
 
 ### 2. Advanced ALU Project ⚙️
-This project implements an **advanced Arithmetic Logic Unit (ALU)** using **SystemVerilog**. It features multiple operations including **addition**, **subtraction**, **bitwise operations**, **multiplication**, and **shifts**, along with an advanced testbench that incorporates **randomized testing**, **deterministic edge tests**, **assertions**, and **functional coverage**. Future enhancements include improved coverage (e.g., **cross coverage** between opcode and inputs), additional features like **division** and **overflow/zero flags**, and integration of advanced verification methodologies (e.g., **UVM**).
+This project implements an **advanced Arithmetic Logic Unit (ALU)** using **SystemVerilog**. It features multiple operations including **addition**, **subtraction**, **bitwise operations**, **multiplication**, and **shifts**, along with an advanced testbench that incorporates **randomized testing**, **deterministic edge tests**, **assertions**, and **functional coverage**.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/advanced_alu_project)
 
 ### 3. Ultrasonic Sensor Servo Control Project 📡
@@ -39,9 +39,6 @@ A collection of lab exercises covering the basics of **computer architecture** a
 ### 8. K-Nearest Neighbors and K-Means Clustering (Python) 🧠
 This **machine learning** project demonstrates implementations of two essential algorithms—**KNN** and **K-Means Clustering**—using **Python** and **NumPy**. These algorithms are widely used in **classification** and **clustering** tasks.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/KNN-and-K-Means-Implementation-Python)
-
-## About Me
-I am an Electrical and Computer Engineering student at BGU, with a specialization in **VLSI design** and **computer systems**. I am passionate about learning and enjoy discovering new concepts through self-study.
 
 ### Contact Information
 - LinkedIn: [Liron Leibovich](https://www.linkedin.com/in/liron-leibovich1)
