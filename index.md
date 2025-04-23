@@ -16,13 +16,13 @@ The CPU features:
 The project emphasizes educational clarity and ISA understanding, serving as a stepping stone for pipelined architectures.  
 - [View Project](https://github.com/LironL99/portfolio/tree/main/RISC-V_Single_Cycle_CPU)
 
-### 2. Automated Log Analysis & Alerting System 🛠️  
-Developed a **Python-based** tool for **automated log parsing**, **anomaly detection**, and **real-time email alerts**, reducing debugging time by **90%** and generating structured **PDF/HTML reports** with visual insights for **verification engineers**.
-- [View Project](https://github.com/LironL99/portfolio/tree/main/Automated_Log_Analysis)
-
-### 3. Advanced ALU Project ⚙️  
+### 2. Advanced ALU Project ⚙️  
 Implemented an **Arithmetic Logic Unit** in **SystemVerilog**, supporting multiple operations including **addition**, **subtraction**, **multiplication**, **bitwise**, and **shifts**. Includes **advanced testbench** with **randomization**, **assertions**, and **functional coverage**.
 - [View Project](https://github.com/LironL99/portfolio/tree/main/advanced_alu_project)
+
+### 3. Automated Log Analysis & Alerting System 🛠️  
+Developed a **Python-based** tool for **automated log parsing**, **anomaly detection**, and **real-time email alerts**, reducing debugging time by **90%** and generating structured **PDF/HTML reports** with visual insights for **verification engineers**.
+- [View Project](https://github.com/LironL99/portfolio/tree/main/Automated_Log_Analysis)
 
 ### 4. Ultrasonic Sensor Servo Control Project 📡  
 Created a **radar-like system** using an **ultrasonic sensor**, **servo motor**, **LEDs**, and **Processing GUI**. Enabled **real-time visualization** of distance and adjustable scanning using a **potentiometer**.
