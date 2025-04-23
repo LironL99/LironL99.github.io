@@ -48,4 +48,3 @@ Demonstrated **C++ proficiency** through assignments on **memory management**, *
 ### Contact Information
 - 📧 Email: lironleibovich@gmail.com  
 - 💼 LinkedIn: [Liron Leibovich](https://www.linkedin.com/in/liron-leibovich1)  
-- 💻 GitHub: [LironL99](https://github.com/LironL99)
