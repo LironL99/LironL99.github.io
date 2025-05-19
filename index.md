@@ -7,31 +7,17 @@ Welcome to my portfolio! I'm a fourth-year Electrical & Computer Engineering stu
 ## Featured Projects
 
 ### 1. RISC-V CPU Development Series (Verilog) 🧠  
-A complete learning journey of building a RISC-V processor from the ground up, using **Verilog HDL**, gradually evolving from a simple single-cycle design to a fully pipelined CPU with hazard detection and resolution mechanisms.
+From a basic single-cycle CPU to a pipelined architecture with full hazard handling.
 
-#### • Single-Cycle CPU  
-Basic RISC-V processor supporting R, I, S, and B types.  
-Includes:
-- Register File, ALU, Control Unit, Instruction & Data Memory  
-- Full waveform simulation in ModelSim  
-- Educational structure and detailed README  
-[View Single-Cycle CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Single_Cycle_CPU)
+- **[Single-Cycle CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Single_Cycle_CPU):**  
+  Supports R/I/S/B types, modular Verilog design, waveform simulation, and educational README.
 
-#### • Pipelined CPU  
-Redesigned architecture into 5 pipeline stages: **IF, ID, EX, MEM, WB**.  
-Key features:
-- Modular pipeline registers (IF/ID, ID/EX, etc.)  
-- Instruction-level parallelism  
-- Clean separation of control and data path logic  
-[View Pipelined CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Pipeline_CPU)
+- **[Pipelined CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Pipeline_CPU):**  
+  5-stage architecture (IF, ID, EX, MEM, WB) with clean separation of logic and pipeline registers.
 
-#### • Hazard Handling CPU  
-Advanced handling of **data hazards** (forwarding, stalling) and **control hazards** (branch flush).  
-Highlights:
-- Forwarding Unit, Hazard Detection Unit  
-- Stall logic for load-use cases  
-- Flush logic for branch mispredictions  
-[View Hazard Handling CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Hazard_handling_CPU)
+- **[Hazard Handling CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Hazard_handling_CPU):**  
+  Implements forwarding, stalling, and flushing for full data and control hazard resolution.
+
 
 
 ### 2. Advanced ALU Project ⚙️  
