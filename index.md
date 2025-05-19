@@ -7,16 +7,20 @@ Welcome to my portfolio! I'm a fourth-year Electrical & Computer Engineering stu
 ## Featured Projects
 
 ### 1. RISC-V CPU Development Series (Verilog) 🧠  
-From a basic single-cycle CPU to a pipelined architecture with full hazard handling.
+A complete learning journey of building a RISC-V processor from the ground up, using **Verilog HDL**, gradually evolving from a simple single-cycle design to a fully pipelined CPU with hazard detection and resolution mechanisms.
 
-- **[Single-Cycle CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Single_Cycle_CPU):**  
-  Supports R/I/S/B types, modular Verilog design, waveform simulation, and educational README.
+#### • Single-Cycle CPU  
+Basic RISC-V processor supporting R, I, S, and B types with Register File, ALU, Control Unit, and Instruction/Data Memory. Includes full waveform simulation in ModelSim.  
+[View Single-Cycle CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Single_Cycle_CPU)
 
-- **[Pipelined CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Pipeline_CPU):**  
-  5-stage architecture (IF, ID, EX, MEM, WB) with clean separation of logic and pipeline registers.
+#### • Pipelined CPU  
+Redesigned into 5 pipeline stages (**IF, ID, EX, MEM, WB**) with modular pipeline registers, instruction-level parallelism, and clear separation of control and data paths.  
+[View Pipelined CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Pipeline_CPU)
 
-- **[Hazard Handling CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Hazard_handling_CPU):**  
-  Implements forwarding, stalling, and flushing for full data and control hazard resolution.
+#### • Hazard Handling CPU  
+Adds robust solutions for **data hazards** (forwarding, stalling) and **control hazards** (branch flush) via Forwarding Unit, Hazard Detection Unit, and precise pipeline control.  
+[View Hazard Handling CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Hazard_handling_CPU)
+
 
 
 
