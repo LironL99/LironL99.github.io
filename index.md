@@ -6,15 +6,33 @@ Welcome to my portfolio! I'm a fourth-year Electrical & Computer Engineering stu
 
 ## Featured Projects
 
-### 1. RISC-V Single Cycle CPU (Verilog) 🧠  
-Designed and implemented a **Single-Cycle CPU** in **Verilog** that supports basic **RISC-V** instructions (R, I, S, B types) including arithmetic, logical, load/store, and branches.  
-The CPU features:
-- A modular design with **Register File**, **ALU**, **Control Units**, and **Instruction/Data Memory**
-- Full **waveform simulation in ModelSim** with a real instruction program
-- Detailed **README** including explanations, tables, diagrams, and insights
+### 1. RISC-V CPU Development Series (Verilog) 🧠  
+A complete learning journey of building a RISC-V processor from the ground up, using **Verilog HDL**, gradually evolving from a simple single-cycle design to a fully pipelined CPU with hazard detection and resolution mechanisms.
 
-The project emphasizes educational clarity and ISA understanding, serving as a stepping stone for pipelined architectures.  
-- [View Project](https://github.com/LironL99/portfolio/tree/main/RISC-V_Single_Cycle_CPU)
+#### • Single-Cycle CPU  
+Basic RISC-V processor supporting R, I, S, and B types.  
+Includes:
+- Register File, ALU, Control Unit, Instruction & Data Memory  
+- Full waveform simulation in ModelSim  
+- Educational structure and detailed README  
+[View Single-Cycle CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Single_Cycle_CPU)
+
+#### • Pipelined CPU  
+Redesigned architecture into 5 pipeline stages: **IF, ID, EX, MEM, WB**.  
+Key features:
+- Modular pipeline registers (IF/ID, ID/EX, etc.)  
+- Instruction-level parallelism  
+- Clean separation of control and data path logic  
+[View Pipelined CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Pipeline_CPU)
+
+#### • Hazard Handling CPU  
+Advanced handling of **data hazards** (forwarding, stalling) and **control hazards** (branch flush).  
+Highlights:
+- Forwarding Unit, Hazard Detection Unit  
+- Stall logic for load-use cases  
+- Flush logic for branch mispredictions  
+[View Hazard Handling CPU](https://github.com/LironL99/portfolio/tree/main/RISC-V_Hazard_handling_CPU)
+
 
 ### 2. Advanced ALU Project ⚙️  
 Implemented an **Arithmetic Logic Unit** in **SystemVerilog**, supporting multiple operations including **addition**, **subtraction**, **multiplication**, **bitwise**, and **shifts**. Includes **advanced testbench** with **randomization**, **assertions**, and **functional coverage**.
